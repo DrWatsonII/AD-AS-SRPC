@@ -10,7 +10,7 @@ This project is an interactive tool that illustrates the relationship between Ag
 - Real-time tracking of points on the SRPC as AD and AS change.
 
 ## Instructions for Students
-- Access the tool at: [https://DrWatsonII.github.io/AD-AS-SRPC-Tool/](https://DrWatsonII.github.io/AD-AS-SRPC-Tool/)
+- Access the tool at: [https://DrWatsonII.github.io/AD-AS-SRPC/](https://DrWatsonII.github.io/AD-AS-SRPC/)
 - Click and drag the AD (blue) or AS (red) curves to shift them.
 - Observe how the equilibrium point changes as you move the curves.
 - Notice how the orange point on the SRPC graph moves in response to changes in AD and AS.
