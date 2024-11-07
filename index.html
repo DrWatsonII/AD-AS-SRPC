@@ -1,1382 +1,182 @@
 <!DOCTYPE html>
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
-
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="ADAS%20SRPC2_files/filelist.xml">
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Watson, Dr. Derrill D.</o:Author>
-  <o:LastAuthor>Watson, Dr. Derrill D.</o:LastAuthor>
-  <o:Revision>3</o:Revision>
-  <o:TotalTime>75</o:TotalTime>
-  <o:Created>2024-11-06T21:33:00Z</o:Created>
-  <o:LastSaved>2024-11-06T22:43:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Words>999</o:Words>
-  <o:Characters>5697</o:Characters>
-  <o:Lines>47</o:Lines>
-  <o:Paragraphs>13</o:Paragraphs>
-  <o:CharactersWithSpaces>6683</o:CharactersWithSpaces>
-  <o:Version>16.00</o:Version>
- </o:DocumentProperties>
- <o:OfficeDocumentSettings>
-  <o:AllowPNG/>
- </o:OfficeDocumentSettings>
-</xml><![endif]-->
-<link rel=themeData href="ADAS%20SRPC2_files/themedata.thmx">
-<link rel=colorSchemeMapping href="ADAS%20SRPC2_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:DontDisplayPageBoundaries/>
-  <w:TrackMoves>false</w:TrackMoves>
-  <w:TrackFormatting/>
-  <w:PunctuationKerning/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:EnableOpenTypeKerning/>
-   <w:DontFlipMirrorIndents/>
-   <w:OverrideTableStyleHps/>
-  </w:Compatibility>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
-  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="375">
-  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index 9"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" Name="toc 9"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="header"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footer"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="index heading"/>
-  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of figures"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="envelope return"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="footnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="line number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="page number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote reference"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="endnote text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="table of authorities"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="macro"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="toa heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Bullet 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Number 5"/>
-  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Closing"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Signature"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="List Continue 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Message Header"/>
-  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Salutation"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Date"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text First Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Note Heading"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Body Text Indent 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Block Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="E-mail Signature"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Top of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Bottom of Form"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal (Web)"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Acronym"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Address"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Cite"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Code"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Definition"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Keyboard"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Preformatted"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Sample"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Typewriter"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="HTML Variable"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="No List"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Outline List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Simple 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Classic 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Colorful 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Columns 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Grid 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 4"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 5"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 7"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table List 8"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table 3D effects 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Contemporary"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Elegant"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Professional"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Subtle 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 2"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Web 3"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Balloon Text"/>
-  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Table Theme"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" QFormat="true"
-   Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" QFormat="true"
-   Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" QFormat="true"
-   Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" QFormat="true"
-   Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" QFormat="true"
-   Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" QFormat="true"
-   Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
-   UnhideWhenUsed="true" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
-   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
-  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
-  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
-  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
-  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
-  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
-  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
-  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="Grid Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="Grid Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="Grid Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
-  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
-  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 1"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 1"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 2"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 2"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 3"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 3"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 4"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 4"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 5"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 5"/>
-  <w:LsdException Locked="false" Priority="46"
-   Name="List Table 1 Light Accent 6"/>
-  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
-  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
-  <w:LsdException Locked="false" Priority="51"
-   Name="List Table 6 Colorful Accent 6"/>
-  <w:LsdException Locked="false" Priority="52"
-   Name="List Table 7 Colorful Accent 6"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Mention"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Smart Hyperlink"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Hashtag"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Unresolved Mention"/>
- </w:LatentStyles>
-</xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-span.hljs-keyword
-	{mso-style-name:hljs-keyword;
-	mso-style-unhide:no;}
-span.hljs-meta
-	{mso-style-name:hljs-meta;
-	mso-style-unhide:no;}
-span.hljs-tag
-	{mso-style-name:hljs-tag;
-	mso-style-unhide:no;}
-span.hljs-name
-	{mso-style-name:hljs-name;
-	mso-style-unhide:no;}
-span.hljs-attr
-	{mso-style-name:hljs-attr;
-	mso-style-unhide:no;}
-span.hljs-string
-	{mso-style-name:hljs-string;
-	mso-style-unhide:no;}
-span.css
-	{mso-style-name:css;
-	mso-style-unhide:no;}
-span.hljs-comment
-	{mso-style-name:hljs-comment;
-	mso-style-unhide:no;}
-span.hljs-selector-class
-	{mso-style-name:hljs-selector-class;
-	mso-style-unhide:no;}
-span.hljs-attribute
-	{mso-style-name:hljs-attribute;
-	mso-style-unhide:no;}
-span.hljs-number
-	{mso-style-name:hljs-number;
-	mso-style-unhide:no;}
-span.javascript
-	{mso-style-name:javascript;
-	mso-style-unhide:no;}
-span.hljs-title
-	{mso-style-name:hljs-title;
-	mso-style-unhide:no;}
-span.hljs-params
-	{mso-style-name:hljs-params;
-	mso-style-unhide:no;}
-span.hljs-subst
-	{mso-style-name:hljs-subst;
-	mso-style-unhide:no;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-family:"Calibri",sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Calibri;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:107%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD-AS & SRPC Interactive Tool</title>
+    <style>
+        /* Styling for curves and points */
+        .curve {
+            stroke-width: 2;
+            fill: none;
+            cursor: pointer;
+        }
+        .demand-curve { stroke: blue; }
+        .supply-curve { stroke: red; }
+        .srpc-curve { stroke: green; }
+        .highlight { fill: orange; }
+        .equilibrium { fill: purple; stroke: black; stroke-width: 1px; }
+        .axis path, .axis line {
+            stroke: black;
+        }
+    </style>
 </head>
-
-<body lang=EN-US style='tab-interval:.5in'>
-
-<div class=WordSection1>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;!DOCTYPE html&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;html lang=&quot;en&quot;&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;head&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;meta charset=&quot;UTF-8&quot;&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
-initial-scale=1.0&quot;&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;title&gt;AD-AS &amp; SRPC Interactive Tool&lt;/title&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;style&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>/* Styling for curves and points */<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.curve {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>stroke-width: 2;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>fill: none;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>     
-</span><span style='mso-spacerun:yes'>      </span>cursor: pointer;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.demand-curve { stroke: blue; }<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.supply-curve { stroke: red; }<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.srpc-curve { stroke: green; }<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.highlight { fill: orange; }<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.equilibrium { fill: purple; stroke: black; stroke-width: 1px; }<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>.axis path, .axis line {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>stroke: black;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;/style&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;/head&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;body&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;h1&gt;AD-AS &amp; SRPC Interactive Model&lt;/h1&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;svg id=&quot;ad_as_chart&quot; width=&quot;400&quot;
-height=&quot;400&quot; style=&quot;border: 1px solid
-black;&quot;&gt;&lt;/svg&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;svg id=&quot;srpc_chart&quot; width=&quot;600&quot;
-height=&quot;400&quot; style=&quot;border: 1px solid
-black;&quot;&gt;&lt;/svg&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;!-- D3.js library --&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;script
-src=&quot;https://d3js.org/d3.v7.min.js&quot;&gt;&lt;/script&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;script&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Set up scales for both graphs<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const adAsWidth = 400, adAsHeight = 400;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const srpcWidth = 600, srpcHeight = 400;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Left Graph (AD-AS): GDP vs Price Level (P)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const adAsSvg = d3.select(&quot;#ad_as_chart&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const xScaleGDP = d3.scaleLinear().domain([0, 100]).range([50, adAsWidth
-- 50]);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const yScaleP = d3.scaleLinear().domain([0, 100]).range([adAsHeight -
-50, 50]);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Right Graph (SRPC): Unemployment vs Inflation, with range 1 to 10<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const srpcSvg = d3.select(&quot;#srpc_chart&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>  
-</span><span style='mso-spacerun:yes'>     </span>const xScaleUnemployment =
-d3.scaleLinear().domain([1, 10]).range([50, srpcWidth - 50]);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const yScaleInflation = d3.scaleLinear().domain([1,
-10]).range([srpcHeight - 50, 50]);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Add axes to the AD-AS chart<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>adAsSvg.append(&quot;g&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;class&quot;,
-&quot;axis&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;transform&quot;,
-`translate(0,${adAsHeight - 50})`)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>           
-</span>.call(d3.axisBottom(xScaleGDP).ticks(5))<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.append(&quot;text&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;x&quot;, adAsWidth / 2)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;y&quot;, 30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span><span style='mso-spacerun:yes'>    </span>.attr(&quot;fill&quot;,
-&quot;black&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.text(&quot;GDP&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>adAsSvg.append(&quot;g&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;class&quot;,
-&quot;axis&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;transform&quot;,
-`translate(50,0)`)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>           
-</span>.call(d3.axisLeft(yScaleP).ticks(5))<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.append(&quot;text&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;x&quot;, -30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;y&quot;, 30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;fill&quot;,
-&quot;black&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.style(&quot;text-anchor&quot;,
-&quot;middle&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.text(&quot;P&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Add axes to the SRPC chart<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>srpcSvg.append(&quot;g&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;class&quot;, &quot;axis&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;transform&quot;,
-`translate(0,${srpcHeight - 50})`)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>           
-</span>.call(d3.axisBottom(xScaleUnemployment).ticks(5))<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.append(&quot;text&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;x&quot;, srpcWidth / 2)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;y&quot;, 30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;fill&quot;, &quot;black&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.text(&quot;Unemployment&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>srpcSvg.append(&quot;g&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;class&quot;,
-&quot;axis&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;transform&quot;,
-`translate(50,0)`)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>           
-</span>.call(d3.axisLeft(yScaleInflation).ticks(5))<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.append(&quot;text&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;x&quot;, -30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;y&quot;, 30)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;fill&quot;,
-&quot;black&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.style(&quot;text-anchor&quot;,
-&quot;middle&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.text(&quot;Inflation&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Draw AD-AS Curves on Left Graph<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const demandCurve =
-adAsSvg.append(&quot;path&quot;).attr(&quot;class&quot;, &quot;curve
-demand-curve&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const supplyCurve =
-adAsSvg.append(&quot;path&quot;).attr(&quot;class&quot;, &quot;curve
-supply-curve&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span><o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Add Equilibrium Point<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const equilibriumPoint = adAsSvg.append(&quot;circle&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;class&quot;,
-&quot;equilibrium&quot;)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.attr(&quot;r&quot;, 5);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Draw SRPC Curve on Right Graph<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const srpcCurve =
-srpcSvg.append(&quot;path&quot;).attr(&quot;class&quot;, &quot;curve
-srpc-curve&quot;);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>const highlightPoint = srpcSvg.append(&quot;circle&quot;).attr(&quot;class&quot;,
-&quot;highlight&quot;).attr(&quot;r&quot;, 5);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>let adShift = 0, asShift = 0;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function drawAdAsCurves() {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>demandCurve.attr(&quot;d&quot;,
-generateADPath(adShift));<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>supplyCurve.attr(&quot;d&quot;,
-generateASPath(asShift));<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>  
-</span><span style='mso-spacerun:yes'>         </span>updateEquilibrium();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function drawSrpcCurve() {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>srpcCurve.attr(&quot;d&quot;,
-generateSRPCPath(-asShift / 6)); // SRPC moves half as much in opposite
-direction<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>updateSRPCPoint(adShift, -asShift /
-6); // Adjust orange dot similarly<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function generateADPath(shift) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>// Create a downward-sloping AD
-curve<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const points = [<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleGDP(10 + shift),
-yScaleP(80)],<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleGDP(90 + shift),
-yScaleP(20)]<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>];<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>return d3.line()(points);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function generateASPath(shift) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>// Create an upward-sloping AS
-curve<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const points = [<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleGDP(10 + shift),
-yScaleP(20)],<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleGDP(90 + shift),
-yScaleP(80)]<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>];<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>return d3.line()(points);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function generateSRPCPath(shift) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>// Create a downward-sloping SRPC
-curve without rotation<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const points = [<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleUnemployment(2 + shift /
-2), yScaleInflation(9)],<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>[xScaleUnemployment(8 + shift /
-2), yScaleInflation(3)]<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>];<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>return d3.line()(points);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function updateEquilibrium() {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>// Calculate and position the
-equilibrium point where AD=AS<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const equilibriumX = xScaleGDP(50 +
-(adShift + asShift)/2);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const equilibriumY = yScaleP(50 +
-(adShift - asShift) / 2.5);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>           
-</span>equilibriumPoint.attr(&quot;cx&quot;, equilibriumX).attr(&quot;cy&quot;,
-equilibriumY);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>function updateSRPCPoint(adShift, asShift) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>// Position the point on SRPC based
-on AD shift, mirror AS shift at half rate<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const x = xScaleUnemployment(5 -
-adShift / 6 + asShift / 2); // Mirror AS shift at half rate for the point<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>const y = yScaleInflation(6 +
-adShift / 6); // Adjust y to stay on SRPC<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>highlightPoint.attr(&quot;cx&quot;,
-x).attr(&quot;cy&quot;, y);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>}<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>      
-</span><span style='mso-spacerun:yes'> </span>// Drag behavior for AD curve<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>demandCurve.call(d3.drag()<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.on(&quot;drag&quot;,
-function(event) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>adShift += event.dx / 10; //
-Adjust the sensitivity of drag<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>drawAdAsCurves();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>drawSrpcCurve();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>    
-</span><span style='mso-spacerun:yes'>       </span>})<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Drag behavior for AS curve<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>supplyCurve.call(d3.drag()<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>.on(&quot;drag&quot;,
-function(event) {<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>asShift += event.dx / 10; //
-Adjust the sensitivity of drag<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>                </span>drawAdAsCurves();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>         </span><span
-style='mso-spacerun:yes'>       </span>drawSrpcCurve();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span
-style='mso-spacerun:yes'>            </span>})<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>);<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>// Initial Draw<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>drawAdAsCurves();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>       
-</span>drawSrpcCurve();<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta><span style='mso-spacerun:yes'>   
-</span>&lt;/script&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;/body&gt;<o:p></o:p></span></p>
-
-<p class=MsoNormal><span class=hljs-meta>&lt;/html&gt;</span></p>
-
-</div>
-
+<body>
+    <h1>AD-AS & SRPC Interactive Model</h1>
+    <svg id="ad_as_chart" width="400" height="400" style="border: 1px solid black;"></svg>
+    <svg id="srpc_chart" width="600" height="400" style="border: 1px solid black;"></svg>
+
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Set up scales for both graphs
+        const adAsWidth = 400, adAsHeight = 400;
+        const srpcWidth = 600, srpcHeight = 400;
+
+        // Left Graph (AD-AS): GDP vs Price Level (P)
+        const adAsSvg = d3.select("#ad_as_chart");
+        const xScaleGDP = d3.scaleLinear().domain([0, 100]).range([50, adAsWidth - 50]);
+        const yScaleP = d3.scaleLinear().domain([0, 100]).range([adAsHeight - 50, 50]);
+
+        // Right Graph (SRPC): Unemployment vs Inflation, with range 1 to 10
+        const srpcSvg = d3.select("#srpc_chart");
+        const xScaleUnemployment = d3.scaleLinear().domain([1, 10]).range([50, srpcWidth - 50]);
+        const yScaleInflation = d3.scaleLinear().domain([1, 10]).range([srpcHeight - 50, 50]);
+
+        // Add axes to the AD-AS chart
+        adAsSvg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(0,${adAsHeight - 50})`)
+            .call(d3.axisBottom(xScaleGDP).ticks(5))
+            .append("text")
+            .attr("x", adAsWidth / 2)
+            .attr("y", 30)
+            .attr("fill", "black")
+            .text("GDP");
+
+        adAsSvg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(50,0)`)
+            .call(d3.axisLeft(yScaleP).ticks(5))
+            .append("text")
+            .attr("x", -30)
+            .attr("y", 30)
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .text("P");
+
+        // Add axes to the SRPC chart
+        srpcSvg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(0,${srpcHeight - 50})`)
+            .call(d3.axisBottom(xScaleUnemployment).ticks(5))
+            .append("text")
+            .attr("x", srpcWidth / 2)
+            .attr("y", 30)
+            .attr("fill", "black")
+            .text("Unemployment");
+
+        srpcSvg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(50,0)`)
+            .call(d3.axisLeft(yScaleInflation).ticks(5))
+            .append("text")
+            .attr("x", -30)
+            .attr("y", 30)
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .text("Inflation");
+
+        // Draw AD-AS Curves on Left Graph
+        const demandCurve = adAsSvg.append("path").attr("class", "curve demand-curve");
+        const supplyCurve = adAsSvg.append("path").attr("class", "curve supply-curve");
+        
+        // Add Equilibrium Point
+        const equilibriumPoint = adAsSvg.append("circle")
+            .attr("class", "equilibrium")
+            .attr("r", 5);
+
+        // Draw SRPC Curve on Right Graph
+        const srpcCurve = srpcSvg.append("path").attr("class", "curve srpc-curve");
+        const highlightPoint = srpcSvg.append("circle").attr("class", "highlight").attr("r", 5);
+
+        let adShift = 0, asShift = 0;
+
+        function drawAdAsCurves() {
+            demandCurve.attr("d", generateADPath(adShift));
+            supplyCurve.attr("d", generateASPath(asShift));
+            updateEquilibrium();
+        }
+
+        function drawSrpcCurve() {
+            srpcCurve.attr("d", generateSRPCPath(-asShift / 6)); // SRPC moves half as much in opposite direction
+            updateSRPCPoint(adShift, -asShift / 6); // Adjust orange dot similarly
+        }
+
+        function generateADPath(shift) {
+            // Create a downward-sloping AD curve
+            const points = [
+                [xScaleGDP(10 + shift), yScaleP(80)],
+                [xScaleGDP(90 + shift), yScaleP(20)]
+            ];
+            return d3.line()(points);
+        }
+
+        function generateASPath(shift) {
+            // Create an upward-sloping AS curve
+            const points = [
+                [xScaleGDP(10 + shift), yScaleP(20)],
+                [xScaleGDP(90 + shift), yScaleP(80)]
+            ];
+            return d3.line()(points);
+        }
+
+        function generateSRPCPath(shift) {
+            // Create a downward-sloping SRPC curve without rotation
+            const points = [
+                [xScaleUnemployment(2 + shift / 2), yScaleInflation(9)],
+                [xScaleUnemployment(8 + shift / 2), yScaleInflation(3)]
+            ];
+            return d3.line()(points);
+        }
+
+        function updateEquilibrium() {
+            // Calculate and position the equilibrium point where AD=AS
+            const equilibriumX = xScaleGDP(50 + (adShift + asShift)/2);
+            const equilibriumY = yScaleP(50 + (adShift - asShift) / 2.5);
+
+            equilibriumPoint.attr("cx", equilibriumX).attr("cy", equilibriumY);
+        }
+
+        function updateSRPCPoint(adShift, asShift) {
+            // Position the point on SRPC based on AD shift, mirror AS shift at half rate
+            const x = xScaleUnemployment(5 - adShift / 6 + asShift / 2); // Mirror AS shift at half rate for the point
+            const y = yScaleInflation(6 + adShift / 6); // Adjust y to stay on SRPC
+
+            highlightPoint.attr("cx", x).attr("cy", y);
+        }
+
+        // Drag behavior for AD curve
+        demandCurve.call(d3.drag()
+            .on("drag", function(event) {
+                adShift += event.dx / 10; // Adjust the sensitivity of drag
+                drawAdAsCurves();
+                drawSrpcCurve();
+            })
+        );
+
+        // Drag behavior for AS curve
+        supplyCurve.call(d3.drag()
+            .on("drag", function(event) {
+                asShift += event.dx / 10; // Adjust the sensitivity of drag
+                drawAdAsCurves();
+                drawSrpcCurve();
+            })
+        );
+
+        // Initial Draw
+        drawAdAsCurves();
+        drawSrpcCurve();
+    </script>
 </body>
-
 </html>
